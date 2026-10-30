@@ -1,0 +1,21 @@
+{
+  "name": "arabali",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Jeux de vocabulaire arabe (mots du Coran inclus)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "jsdom": "^28.1.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
